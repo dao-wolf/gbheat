@@ -1,0 +1,43 @@
+#servicetable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#servicetable td, #servicetable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#servicetable tr:nth-child(even){background-color: #f2f2f2;}
+
+#servicetable tr:hover {background-color: #ddd;}
+
+#servicetable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
