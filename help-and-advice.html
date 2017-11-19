@@ -10,17 +10,16 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-    <!-- Brand/logo -->
-    <a class="navbar-brand" href="#">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
       <img src="bird.jpg" alt="GB Heat" style="width:40px;">
     </a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="false">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
+
+    <div class="navbar-collapse collapse" id="navb" style="">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="services.html">Gas Services</a>
         </li>
@@ -31,12 +30,11 @@
           <a class="nav-link" href="help-and-advice.html">Help and Advice</a>
         </li>
       </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+      </form>
     </div>
-
-    <form class="form-inline my-2 my-lg-0" _lpchecked="1">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
-    </form>
   </nav>
 
   <div class="jumbotron text-center">

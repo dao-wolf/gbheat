@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>GBHeat.com</title>
   <meta charset="utf-8">
@@ -9,83 +10,71 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="#">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
     <img src="bird.jpg" alt="GB Heat" style="width:40px;">
   </a>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="false">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="services.html">Gas Services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about-us.html">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="help-and-advice.html">Help and Advice</a>
-      </li>
-    </ul>
+
+    <div class="navbar-collapse collapse" id="navb" style="">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Gas Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about-us.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="help-and-advice.html">Help and Advice</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1>Welcome to GBHeat.com</h1>
+    <p>We cover Islington and local areas</p>
+    <p>Reg No. 525009</p>
+    <p>Tel. 075 300 75100</p>
   </div>
 
-  <form class="form-inline my-2 my-lg-0" _lpchecked="1">
-    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-    <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
-  </form>
-</nav>
-
-<div class="jumbotron text-center">
-  <h1>Welcome to GBHeat.com</h1>
-  <p>We cover Islington and local areas</p>
-  <p>Reg No. 525009</p>
-  <p>Tel. 075 300 75100</p>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="card" style="width:350px">
-        <img class="card-img-top" src="images/img_avatar1.png" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h3 class="card-title">Gas Services</h3>
-          <p>
-            <a class="btn btn-secondary" href="services.html" role="button">View details »</a>
-          </p>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <img src="images/img_avatar1.png" alt="Card image" style="width:100%">
+        <h3>Gas Services</h3>
+        <p>
+          <a class="btn btn-secondary" href="services.html" role="button">View details »</a>
+        </p>
       </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="card" style="width:350px">
-        <img class="card-img-top" src="images/img_avatar1.png" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h3 class="card-title">About Us</h3>
-          <p class="card-text">With many years of experience in the gas engineering industry, we offer competitive prices for gas installation and maintenance to customers throughout local London areas.</p>
-          <p class="card-text">We provides individual households with a professional gas installation and maintenance service of both gas central heating boiler systems and gas appliance installations.</p>
-          <p>
-            <a class="btn btn-secondary" href="about-us.html" role="button">View details »</a>
-          </p>
-        </div>
+      <div class="col-sm">
+        <img src="images/img_avatar1.png" alt="Card image" style="width:100%">
+        <h3>About Us</h3>
+        <p>With many years of experience in the gas engineering industry, we offer competitive prices for gas installation and maintenance to customers throughout local London areas.</p>
+        <p>We provides individual households with a professional gas installation and maintenance service of both gas central heating boiler systems and gas appliance installations.</p>
+        <p>
+          <a class="btn btn-secondary" href="about-us.html" role="button">View details »</a>
+        </p>
       </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="card" style="width:350px">
-        <img class="card-img-top" src="images/img_avatar1.png" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h3 class="card-title">Help and Advice</h3>
-          <p>
-            <a class="btn btn-secondary" href="help-and-advice.html" role="button">View details »</a>
-          </p>
-        </div>
+      <div class="col-sm">
+        <img src="images/img_avatar1.png" alt="Card image" style="width:100%">
+        <h3>Help and Advice</h3>
+        <p>
+          <a class="btn btn-secondary" href="help-and-advice.html" role="button">View details »</a>
+        </p>
       </div>
     </div>
   </div>
-</div>
 
 </body>
+
 </html>
